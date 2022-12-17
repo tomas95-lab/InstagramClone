@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <div class="images">
+            <img src="./img/screenshot1.png" class="image-changed" alt="">
+
+            <img src="./img/design-instagram.png" alt="">
+        </div>
+        <aside class="login">
+            <div class="loginContainer">
+                <div aria-disabled="false" role="button" tabindex="0" style="cursor: pointer;"><i
+                        data-visualcompletion="css-img" aria-label="Instagram" class="" role="img"
+                        style="background-image: url(&quot;https://static.cdninstagram.com/rsrc.php/v3/yi/r/ZFtnMBJnHU_.png&quot;); background-position: 0px -554px; background-size: auto; width: 175px; height: 51px; background-repeat: no-repeat; display: inline-block;"
+                        data-metatip="true"></i></div>
+                <form action="./html/instagram.html" id="form">
+                    <div class="email">
+                        <input type="text" required id="email">
+                        <span id="emailSpan">Ingrese su nombre de usuario</span>
+                    </div>
+                    <div class="password">
+                        <input type="password" required id="password">
+                        <span id="passwordSpan">Ingrese su contraseña</span>
+                    </div>
+                    <button id="send">
+                        Entrar
+                    </button>
+                </form>
+                <div class="alert"></div>
+                <div class="or">
+                    <div class="line line1"></div>
+                    <div id="o">o</div>
+                    <div class="line line2"></div>
+                </div>
+                <div class="links">
+                    <div>
+                        <a href="https://facebook.com" id="facebook"><i class='bx bxl-facebook-square'></i> Iniciar
+                            sesion
+                            con
+                            Facebook
+                        </a>
+                    </div>
+                    <div>
+                        <a href="#">¿Has olvidado tu contraseña?</a>
+                    </div>
+                </div>
+            </div>
+            <div class="register">
+                <p>¿No tienes cuenta? <a href="#">Registrate</a></p>
+            </div>
+            <div class="getApp">
+                <p>Get the app.</p>
+                <div class="apps">
+                    <picture id="playstore"><img src="https://static.cdninstagram.com/rsrc.php/v3/yz/r/c5Rp7Ym-Klz.png"
+                            alt="">
+                    </picture>
+                    <picture>
+                        <img id="appstore" src="https://static.cdninstagram.com/rsrc.php/v3/yu/r/EHY6QnZYdNX.png"
+                            alt="">
+                    </picture>
+                </div>
+            </div>
+        </aside>
+    </main>
+    <script src="main.js"></script>
+</body>
+
+</html>

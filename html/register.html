@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="../css/register.css">
+</head>
+
+<body>
+    <main>
+        <section class="register-container">
+            <div aria-disabled="false" role="button" tabindex="0" style="cursor: pointer;"><i
+                    data-visualcompletion="css-img" aria-label="Instagram" class="" role="img"
+                    style="background-image: url(&quot;https://static.cdninstagram.com/rsrc.php/v3/yi/r/ZFtnMBJnHU_.png&quot;); background-position: 0px -554px; background-size: auto; width: 175px; height: 51px; background-repeat: no-repeat; display: inline-block;"
+                    data-metatip="true"></i></div>
+            <h2>
+                Regístrate para ver fotos y vídeos de tus amigos.
+
+            </h2>
+            <button> <i class='bx bxl-facebook-square'></i>Iniciar sesion con Facebook</button>
+            <div class="or">
+                <div class="line line1"></div>
+                <div id="o">o</div>
+                <div class="line line2"></div>
+            </div>
+            <div class="form-container">
+                <form id="form" class="form" action="instagram.html">
+
+                    <div class="email">
+                        <input type="text" required id="email">
+                        <span id="emailSpan">Correo electronico</span>
+                    </div>
+                    <div class="name">
+                        <input type="text" required id="name">
+                        <span id="nameInput">Nombre completo</span>
+                        <i class='bx bx-check-circle'></i> <i class='bx bx-x-circle'></i>
+                    </div>
+                    <div class="user-name">
+                        <input minlength="4" type="text" required id="inputUser">
+                        <span id="userName">Nombre de usuario</span>
+                    </div>
+                    <div class="password">
+                        <input type="password" required id="inputPassword">
+                        <span id="password">Contraseña</span>
+                        <i class='bx bx-check-circle'></i> <i class='bx bx-x-circle'></i>
+                    </div>
+                </form>
+                <p>Es posible que los usuarios de nuestro servicio hayan subido tu información de contacto en Instagram.
+                    Más
+                    información
+                    <br>
+                    <br>
+                    Al registrarte, aceptas nuestras Condiciones, nuestra Política de privacidad y nuestra Política de
+                    cookies.
+                </p>
+                <button form="form">Registrate</button>
+            </div>
+            <div class="alert"></div>
+        </section>
+        <div class="contariner-login">
+            <p>¿Tienes una cuenta? <a href="../index.html">Entrar</a>
+            </p>
+        </div>
+        <div class="getApp">
+            <p>Get the app.</p>
+            <div class="apps">
+                <picture id="playstore"><img src="https://static.cdninstagram.com/rsrc.php/v3/yz/r/c5Rp7Ym-Klz.png"
+                        alt="">
+                </picture>
+                <picture>
+                    <img id="appstore" src="https://static.cdninstagram.com/rsrc.php/v3/yu/r/EHY6QnZYdNX.png" alt="">
+                </picture>
+            </div>
+
+    </main>
+    <script src="../js/register.js">
+    </script>
+</body>
+
+</html>
